@@ -1,0 +1,32 @@
+{
+  "name": "ams",
+  "version": "1.0.0",
+  "description": "web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "style": "npx tailwindcss -i ./public/stylesheets/styles.css -o ./public/stylesheets/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oads777/ams.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oads777/ams/issues"
+  },
+  "homepage": "https://github.com/oads777/ams#readme",
+  "dependencies": {
+    "dotconfig": "^0.0.1-security",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs": "^2.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
